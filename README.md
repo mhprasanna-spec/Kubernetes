@@ -85,7 +85,7 @@ aws eks update-kubeconfig
 ````
 
 ```
-root@ip-172-31-32-7:~# # Download and install the latest release
+# Download and install the latest release
 curl --silent --location "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
 sudo mv /tmp/eksctl /usr/local/bin
 ```
